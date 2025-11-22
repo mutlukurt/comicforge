@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMIC FORGE - Best Indie Comic Book Store</title>
+    <meta name="description"
+        content="Discover the best independent comic books, merch, and collectibles at Comic Forge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">COMIC<span class="accent-teal">FORGE</span></span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#catalog" class="nav-link">Catalog</a>
+                <a href="#merch" class="nav-link">Merch</a>
+                <a href="#your-plan" class="nav-link">Your Plan</a>
+                <a href="#media" class="nav-link">Media</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="theme-icon">☀️</span>
+                </button>
+                <button class="cart-btn" aria-label="Shopping cart">
+                    <span class="cart-icon">🛒</span>
+                    <span class="cart-count">0</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-best">BEST</span>
+                    <span class="hero-main">COMIC BOOK <span class="accent-orange">STORE</span></span>
+                    <span class="hero-subtitle">YOU'VE EVER <span class="accent-teal">SEEN</span></span>
+                </h1>
+                <p class="hero-description">
+                    Discover a curated collection of indie comics, vintage classics,
+                    and exclusive merchandise. From underground zines to cult favorites,
+                    we've got the stories that matter.
+                </p>
+                <button class="cta-button">Explore Collection</button>
+            </div>
+            <div class="hero-collage">
+                <div class="comic-card-hero card-1">
+                    <div class="comic-placeholder hero-comic-1">
+                        <div class="halftone"></div>
+                        <span class="comic-title-overlay">SHADOW<br>WARRIOR</span>
+                    </div>
+                </div>
+                <div class="comic-card-hero card-2">
+                    <div class="comic-placeholder hero-comic-2">
+                        <div class="halftone"></div>
+                        <span class="comic-title-overlay">NEON<br>NIGHTS</span>
+                    </div>
+                </div>
+                <div class="comic-card-hero card-3">
+                    <div class="comic-placeholder hero-comic-3">
+                        <div class="halftone"></div>
+                        <span class="comic-title-overlay">COSMIC<br>CLASH</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="torn-divider orange"></div>
+    </section>
+
+    <!-- Wide Selection Section -->
+    <section class="selection-section" id="catalog">
+        <div class="container">
+            <div class="sticker sticker-1">EST. 2024</div>
+            <h2 class="section-title orange">WIDE SELECTION</h2>
+            <div class="comic-grid">
+                <div class="comic-card">
+                    <div class="comic-cover">
+                        <div class="comic-placeholder card-1-variant">
+                            <div class="halftone"></div>
+                            <span class="comic-title-overlay">URBAN<br>LEGENDS</span>
+                        </div>
+                    </div>
+                    <div class="comic-info">
+                        <h3 class="comic-title">Urban Legends #12</h3>
+                        <p class="comic-price">$4.99</p>
+                    </div>
+                </div>
+                <div class="comic-card">
+                    <div class="comic-cover">
+                        <div class="comic-placeholder card-2-variant">
+                            <div class="halftone"></div>
+                            <span class="comic-title-overlay">MIDNIGHT<br>HORROR</span>
+                        </div>
+                    </div>
+                    <div class="comic-info">
+                        <h3 class="comic-title">Midnight Tales Vol. 3</h3>
+                        <p class="comic-price">$5.99</p>
+                    </div>
+                </div>
+                <div class="comic-card">
+                    <div class="comic-cover">
+                        <div class="comic-placeholder card-3-variant">
+                            <div class="halftone"></div>
+                            <span class="comic-title-overlay">FUTURE<br>SHOCK</span>
+                        </div>
+                    </div>
+                    <div class="comic-info">
+                        <h3 class="comic-title">Future Shock 2099</h3>
+                        <p class="comic-price">$6.49</p>
+                    </div>
+                </div>
+                <div class="comic-card">
+                    <div class="comic-cover">
+                        <div class="comic-placeholder card-4-variant">
+                            <div class="halftone"></div>
+                            <span class="comic-title-overlay">CYBER<br>DETECTIVE</span>
+                        </div>
+                    </div>
+                    <div class="comic-info">
+                        <h3 class="comic-title">Cyber Detective #7</h3>
+                        <p class="comic-price">$4.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Merch Section -->
+    <section class="merch-section" id="merch">
+        <div class="container">
+            <div class="sticker sticker-2">ORIGINAL</div>
+            <h2 class="section-title teal">MERCH & COLLECTIBLES</h2>
+            <p class="section-description">
+                We have a wide selection of merchandise, including
+                <span class="accent-orange">VINTAGE POSTERS</span>,
+                <span class="accent-teal">ACTION FIGURES</span>,
+                <span class="accent-orange">EXCLUSIVE MERCH</span>,
+                and rare <span class="accent-teal">ACCESSORIES</span>.
+            </p>
+            <div class="merch-grid">
+                <div class="merch-card">
+                    <div class="merch-image">
+                        <div class="merch-placeholder merch-1">
+                            <span class="merch-icon">🎭</span>
+                        </div>
+                    </div>
+                    <h3 class="merch-title">Action Figures</h3>
+                    <p class="merch-desc">Collectible heroes & villains</p>
+                </div>
+                <div class="merch-card">
+                    <div class="merch-image">
+                        <div class="merch-placeholder merch-2">
+                            <span class="merch-icon">🖼️</span>
+                        </div>
+                    </div>
+                    <h3 class="merch-title">Vintage Posters</h3>
+                    <p class="merch-desc">Classic comic art prints</p>
+                </div>
+                <div class="merch-card">
+                    <div class="merch-image">
+                        <div class="merch-placeholder merch-3">
+                            <span class="merch-icon">⚡</span>
+                        </div>
+                    </div>
+                    <h3 class="merch-title">Accessories</h3>
+                    <p class="merch-desc">Pins, patches & stickers</p>
+                </div>
+                <div class="merch-card">
+                    <div class="merch-image">
+                        <div class="merch-placeholder merch-4">
+                            <span class="merch-icon">👕</span>
+                        </div>
+                    </div>
+                    <h3 class="merch-title">Apparel</h3>
+                    <p class="merch-desc">Limited edition tees</p>
+                </div>
+            </div>
+        </div>
+        <div class="torn-divider teal"></div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="your-plan">
+        <div class="pricing-bg-band">
+            <div class="container">
+                <h2 class="section-title white">CHOOSE YOUR PLAN</h2>
+                <p class="section-description white">
+                    Subscribe monthly and get exclusive comics delivered to your door.
+                    Cancel anytime, keep the comics forever.
+                </p>
+                <div class="pricing-grid">
+                    <div class="pricing-card tape-top-left">
+                        <div class="tape tape-1"></div>
+                        <div class="plan-header">
+                            <h3 class="plan-name">BASIC</h3>
+                            <p class="plan-price">$14.99<span>/month</span></p>
+                        </div>
+                        <ul class="plan-features">
+                            <li>2 curated comics monthly</li>
+                            <li>Access to member forums</li>
+                            <li>10% discount on store items</li>
+                            <li>Early access to new releases</li>
+                        </ul>
+                        <button class="plan-button">Get Started</button>
+                    </div>
+                    <div class="pricing-card featured tape-top-right">
+                        <div class="tape tape-2"></div>
+                        <div class="featured-badge">MOST POPULAR</div>
+                        <div class="plan-header">
+                            <h3 class="plan-name">ULTIMATE</h3>
+                            <p class="plan-price">$29.99<span>/month</span></p>
+                        </div>
+                        <ul class="plan-features">
+                            <li>5 curated comics monthly</li>
+                            <li>Exclusive variant covers</li>
+                            <li>20% discount on all items</li>
+                            <li>Free shipping nationwide</li>
+                            <li>Priority customer support</li>
+                        </ul>
+                        <button class="plan-button">Get Started</button>
+                    </div>
+                    <div class="pricing-card tape-bottom-left">
+                        <div class="tape tape-3"></div>
+                        <div class="plan-header">
+                            <h3 class="plan-name">PREMIUM</h3>
+                            <p class="plan-price">$49.99<span>/month</span></p>
+                        </div>
+                        <ul class="plan-features">
+                            <li>10 curated comics monthly</li>
+                            <li>Signed editions included</li>
+                            <li>30% discount on everything</li>
+                            <li>Free international shipping</li>
+                            <li>VIP events & artist meetups</li>
+                            <li>Exclusive merchandise box</li>
+                        </ul>
+                        <button class="plan-button">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="torn-divider orange-bottom"></div>
+    </section>
+
+    <!-- Blog/Media Section -->
+    <section class="blog-section" id="media">
+        <div class="container">
+            <div class="sticker sticker-3">FRESH</div>
+            <h2 class="section-title orange">READ OUR MEDIA</h2>
+            <div class="blog-grid">
+                <article class="blog-card cutout-1">
+                    <div class="blog-image">
+                        <div class="blog-placeholder blog-1">
+                            <span class="blog-icon">📰</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">The Rise of Indie Comics in 2024</h3>
+                        <p class="blog-excerpt">
+                            Independent publishers are changing the game with bold storytelling
+                            and diverse voices...
+                        </p>
+                        <a href="#" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+                <article class="blog-card cutout-2">
+                    <div class="blog-image">
+                        <div class="blog-placeholder blog-2">
+                            <span class="blog-icon">✨</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Top 10 Must-Read Series This Month</h3>
+                        <p class="blog-excerpt">
+                            Our curated picks for the best new releases you can't miss
+                            this month...
+                        </p>
+                        <a href="#" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+                <article class="blog-card cutout-3">
+                    <div class="blog-image">
+                        <div class="blog-placeholder blog-3">
+                            <span class="blog-icon">🎨</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Behind the Scenes: Artist Spotlight</h3>
+                        <p class="blog-excerpt">
+                            Meet the creators bringing these incredible stories to life
+                            with their unique art...
+                        </p>
+                        <a href="#" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="sticker sticker-4">GET IN TOUCH</div>
+            <h2 class="section-title teal">CONTACT US</h2>
+            <p class="section-description">
+                Have questions? Want to collaborate? We'd love to hear from you!
+                <span class="accent-orange">Drop us a message</span> and we'll get back to you ASAP.
+            </p>
+            <div class="contact-grid">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us what's on your mind..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <span class="info-icon">📍</span>
+                        <h3>Visit Us</h3>
+                        <p>123 Comic Street<br>Brooklyn, NY 11211</p>
+                    </div>
+                    <div class="info-card">
+                        <span class="info-icon">📧</span>
+                        <h3>Email</h3>
+                        <p>hello@comicforge.com<br>support@comicforge.com</p>
+                    </div>
+                    <div class="info-card">
+                        <span class="info-icon">📞</span>
+                        <h3>Call Us</h3>
+                        <p>+1 (555) 123-4567<br>Mon-Sat, 10AM-8PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="torn-divider orange"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">COMIC<span class="accent-teal">FORGE</span></span>
+                    <p class="footer-tagline">The best indie comics, delivered.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#catalog">Catalog</a>
+                    <a href="#merch">Merch</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Discord">💬</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ComicForge. All rights reserved. Built with ❤️ for comic lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
